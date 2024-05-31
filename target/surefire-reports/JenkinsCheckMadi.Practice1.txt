@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: JenkinsCheckMadi.Practice1
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.016 s -- in JenkinsCheckMadi.Practice1
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.258 s -- in JenkinsCheckMadi.Practice1

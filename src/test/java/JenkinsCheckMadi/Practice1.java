@@ -32,4 +32,8 @@ public class Practice1 {
    	public void FTest() {
     	  System.out.println("Changes Files -->  11:13");
    	}
+    @Test
+   	public void GTest() {
+    	  System.out.println("Changes Files -->  12:14");
+   	}
 }
