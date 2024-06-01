@@ -34,6 +34,10 @@ public class Practice1 {
    	}
     @Test
    	public void GTest() {
-    	  System.out.println("Changes Files -->  12:1556");
+    	  System.out.println("Changes Files -->  12:erghjhgffg1556");
+   	}
+    @Test
+   	public void HTest() {
+    	  System.out.println("dfgghjhgf Files -->  12:erghjhgffg1556");
    	}
 }
