@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-02T05:06:27Z" name="Surefire suite" finished-at="2024-06-02T05:06:27Z" duration-ms="115">
+  <suite started-at="2024-06-02T06:19:02Z" name="Surefire suite" finished-at="2024-06-02T06:19:02Z" duration-ms="86">
     <groups>
     </groups>
-    <test started-at="2024-06-02T05:06:27Z" name="Surefire test" finished-at="2024-06-02T05:06:27Z" duration-ms="115">
+    <test started-at="2024-06-02T06:19:02Z" name="Surefire test" finished-at="2024-06-02T06:19:02Z" duration-ms="86">
       <class name="JenkinsCheckMadi.Practice1">
-        <test-method signature="ATest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="ATest" finished-at="2024-06-02T05:06:27Z" duration-ms="23" status="PASS">
+        <test-method signature="ATest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="ATest" finished-at="2024-06-02T06:19:02Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ATest -->
-        <test-method signature="BTest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="BTest" finished-at="2024-06-02T05:06:27Z" duration-ms="1" status="PASS">
+        <test-method signature="BTest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="BTest" finished-at="2024-06-02T06:19:02Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BTest -->
-        <test-method signature="CTest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="CTest" finished-at="2024-06-02T05:06:27Z" duration-ms="0" status="PASS">
+        <test-method signature="CTest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="CTest" finished-at="2024-06-02T06:19:02Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CTest -->
-        <test-method signature="DTest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="DTest" finished-at="2024-06-02T05:06:27Z" duration-ms="2" status="PASS">
+        <test-method signature="DTest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="DTest" finished-at="2024-06-02T06:19:02Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DTest -->
-        <test-method signature="ETest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="ETest" finished-at="2024-06-02T05:06:27Z" duration-ms="1" status="PASS">
+        <test-method signature="ETest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="ETest" finished-at="2024-06-02T06:19:02Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ETest -->
-        <test-method signature="FTest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="FTest" finished-at="2024-06-02T05:06:27Z" duration-ms="1" status="PASS">
+        <test-method signature="FTest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="FTest" finished-at="2024-06-02T06:19:02Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FTest -->
-        <test-method signature="GTest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="GTest" finished-at="2024-06-02T05:06:27Z" duration-ms="1" status="PASS">
+        <test-method signature="GTest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="GTest" finished-at="2024-06-02T06:19:02Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GTest -->
-        <test-method signature="HTest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="HTest" finished-at="2024-06-02T05:06:27Z" duration-ms="1" status="PASS">
+        <test-method signature="HTest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="HTest" finished-at="2024-06-02T06:19:02Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HTest -->
-        <test-method signature="ITest()[pri:0, instance:JenkinsCheckMadi.Practice1@8e0379d]" started-at="2024-06-02T05:06:27Z" name="ITest" finished-at="2024-06-02T05:06:27Z" duration-ms="1" status="PASS">
+        <test-method signature="JTest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="JTest" finished-at="2024-06-02T06:19:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JTest -->
+        <test-method signature="ITest()[pri:0, instance:JenkinsCheckMadi.Practice1@341b80b2]" started-at="2024-06-02T06:19:02Z" name="ITest" finished-at="2024-06-02T06:19:02Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ITest -->
