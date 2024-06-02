@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -133,6 +133,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="JenkinsCheckMadi.Practice1" class="method navigator-link" hash-for-method="GTest">GTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JenkinsCheckMadi.Practice1" class="method navigator-link" hash-for-method="HTest">HTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -202,6 +207,13 @@
                   <span class="method-name">GTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HTest">
+                  </a> <!-- HTest -->
+                  <span class="method-name">HTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
@@ -255,13 +267,13 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ATest')
 data.setCell(0, 2, 'JenkinsCheckMadi.Practice1')
-data.setCell(0, 3, 8);
+data.setCell(0, 3, 15);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'GTest')
+data.setCell(1, 1, 'DTest')
 data.setCell(1, 2, 'JenkinsCheckMadi.Practice1')
 data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
@@ -269,26 +281,30 @@ data.setCell(2, 1, 'FTest')
 data.setCell(2, 2, 'JenkinsCheckMadi.Practice1')
 data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ETest')
+data.setCell(3, 1, 'GTest')
 data.setCell(3, 2, 'JenkinsCheckMadi.Practice1')
 data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'BTest')
+data.setCell(4, 1, 'HTest')
 data.setCell(4, 2, 'JenkinsCheckMadi.Practice1')
 data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'CTest')
+data.setCell(5, 1, 'ETest')
 data.setCell(5, 2, 'JenkinsCheckMadi.Practice1')
-data.setCell(5, 3, 0);
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'DTest')
+data.setCell(6, 1, 'BTest')
 data.setCell(6, 2, 'JenkinsCheckMadi.Practice1')
 data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CTest')
+data.setCell(7, 2, 'JenkinsCheckMadi.Practice1')
+data.setCell(7, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 ms</span>
+              <span class="suite-total-time">Total running time: 20 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -321,27 +337,31 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">BTest</span>
-                <span class="method-start">9 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CTest</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DTest</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ETest</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">20 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FTest</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GTest</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HTest</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

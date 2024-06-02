@@ -40,4 +40,9 @@ public class Practice1 {
    	public void HTest() {
     	  System.out.println("dfgghjhgf Files -->  12:erghjhgffg1556");
    	}
+    @Test
+   	public void ITest() {
+    	  System.out.println("Manishmorming Files -->  12:erghjhgffg1556");
+   	}
 }
+
