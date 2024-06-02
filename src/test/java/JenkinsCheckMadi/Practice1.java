@@ -44,5 +44,12 @@ public class Practice1 {
    	public void ITest() {
     	  System.out.println("Manishmorming Files -->  12:erghjhgffg1556");
    	}
+    
+    
+    
+    @Test
+   	public void JTest() {
+    	  System.out.println("Final Noushad Ansari -->  12:erghjhgffg1556");
+   	}
 }
 
